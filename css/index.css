@@ -31,11 +31,16 @@ header {
     color: indigo;
     display: none;
 }
-header p {
+header .logo {
     line-height: normal;
-    font-size: clamp(1.3rem, 2.5vw, 3vw);
+    font-size: clamp(1.3rem, 2.3vw, 3vw);
     font-weight: bold;
     padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+.logo {
+
 }
 header nav {
     margin-left: auto;
@@ -111,7 +116,7 @@ aside nav ul li i {
     text-align: center;
     line-height: 30px;
     align-items: center;
-    background-image: url("../img/backHD.jpg");
+    background-image: url("../img/back.jpg");
     background-size: cover;
 }
 .landing h1 {
