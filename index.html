@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <!-- Menu de navigation -->
+    <header>
+        <p>AK-AIRLINE<span class="dot">.</span></p>
+        <nav>
+            <ul>
+                <li><a href="#main">ACCUEIL |</a></li>
+                <li><a href="#destination">DESTINATION |</a></li>
+                <li><a href="#circuit">CIRCUITS |</a></li>
+                <li><a href="#contact">CONTACT |</a></li>
+            </ul>
+        </nav>
+        <input type="checkbox" id="sideCheck" hidden>
+        <label for="sideCheck" class="toggle"><i class="fas fa-bars fa-2x"></i></label>
+    </header>
+    <!-- Sidebar -->
+    <aside>
+        <nav>
+            <div class="sidetext">
+                <h2>AK-Airline</h2>
+                <p>mon agence de choix</p>
+            </div>
+            <ul>
+                <li><a href="#main"><i class="fas fa-home"></i>ACCUEIL</a></li>
+                <li><a href="#destination"><i class="fas fa-map"></i>DESTINATION</a></li>
+                <li><a href="#circuit"><i class="fas fa-plane"></i>CIRCUITS</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i>CONTACT</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <section class="conteneur-principal" id="main">
+        <section class="landing">
+            <h1>ORGANISEZ VOTRE <br><span>VOVAGE SUR MESURE</span></h1>
+            <a href="#">Par ici</a>
+        </section>
+
+        <!-- Section circuits -->
+        <section class="circuit" id="circuit">
+            <section class="planifier">
+                <img src="./img/pen.jpg" alt="img-planifier">
+                <h2>PLANIFIER</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente et vitae accusantium eligendi, quis aspernatur nostrum porro libero corporis!</p>
+            </section>
+            <section class="organiser">
+                <img src="./img/organisation.jpg" alt="img-organiser">
+                <h2>ORGANISER</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente et vitae accusantium eligendi, quis aspernatur nostrum porro libero corporis!</p>               
+            </section>
+            <section class="voyage">
+                <img src="./img/booster.jpg" alt="img-voyage">
+                <h2>VOYAGER</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sapiente et vitae accusantium eligendi, quis aspernatur nostrum porro libero corporis!</p>                
+            </section>
+        </section>
+
+        <!-- Section destination -->
+        <section class="destination" id="destination">
+            <div class="bloc">
+                <div class="left">
+                    <h3>PARTEZ EN FAMILLE</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sequi?</p>
+                    <a href="#">Plus d'infos</a>
+                </div>
+            </div>
+            <div class="bloc">
+                <div class="left">
+                    <h3>ENVIE DE S'EVADER</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sequi?</p>
+                    <a href="#">Plus d'infos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section contact -->
+        <section class="contact" id="contact">
+            <p>CONTACTEZ-NOUS</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur reiciendis asperiores in dignissimos nam vel dolorum accusamus molestias ducimus.</p>
+            <form action="#">
+                <div class="nom">
+                    <label for="nom">Nom
+                        <input type="text" name="nom" id="nom" placeholder="Votre nom" required>
+                    </label>
+                </div>
+                <div class="email">
+                    <label for="adresseEmail">Email
+                        <input type="email" name="adresseEmail" id="adresseEmail" placeholder="Votre nom" required>
+                    </label>
+                </div>
+
+                <button>OK</button>
+            </form>
+        </section>
+    </section>
+    <footer>
+        <p>Princeneer tour<span class="dot">.</span></p>
+        <p>Copyright &copy; Tous droits réservés. Ahmed KIPERTINO. Diplomé SOCIOLOGIE UGLC-SC</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
