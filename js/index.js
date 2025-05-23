@@ -45,6 +45,9 @@ function confetis() {
   conf.style.animationDuration = duree + "s";
 
   conf.style.zIndex = "50";
+  if(Math.floor(Math.random() * 5) <= 3) {
+    conf.style.borderRadius = "50%"
+  }
   document.querySelector("body").appendChild(conf);
   setTimeout(() => {
     conf.remove();
